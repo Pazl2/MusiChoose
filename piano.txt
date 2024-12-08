@@ -1,0 +1,6 @@
+YamahaU1;wood;2;5600;88
+SteinwayModelD;metal;1;118000;88
+KawaiK300;plastic;3;6400;88
+Bosendorfer200;wood;1;80000;88
+CasioCelvianoGP;plastic;4;2800;88
+FazioliF308;wood;1;200000;88

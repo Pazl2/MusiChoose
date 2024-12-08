@@ -1,0 +1,87 @@
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <memory>
+
+class Instrument {
+public:
+    virtual ~Instrument() = default;
+
+    virtual void save(std::ofstream& out) const = 0;
+    virtual void load(std::ifstream& in) = 0;
+};
+
+class Guitar : public Instrument {
+public:
+    void play() const override {
+        std::cout << "Playing guitar!" << std::endl;
+    }
+
+    void save(std::ofstream& out) const override {
+        out << "Guitar\n";
+        // Запись специфичных данных гитары
+    }
+
+    void load(std::ifstream& in) override {
+        // Загрузка специфичных данных гитары
+    }
+};
+
+class Drums : public Instrument {
+public:
+    void play() const override {
+        std::cout << "Playing drums!" << std::endl;
+    }
+
+    void save(std::ofstream& out) const override {
+        out << "Drums\n";
+        // Запись специфичных данных барабанов
+    }
+
+    void load(std::ifstream& in) override {
+        // Загрузка специфичных данных барабанов
+    }
+};
+
+void saveInstruments(const std::vector<std::unique_ptr<Instrument>>& instruments, const std::string& filename) {
+    std::ofstream out(filename);
+    for (const auto& instrument : instruments) {
+        instrument->save(out);
+    }
+}
+
+void loadInstruments(std::vector<std::unique_ptr<Instrument>>& instruments, const std::string& filename) {
+    std::ifstream in(filename);
+    std::string type;
+    while (in >> type) {
+        std::unique_ptr<Instrument> instrument;
+        if (type == "Guitar") {
+            instrument = std::make_unique<Guitar>();
+        } else if (type == "Drums") {
+            instrument = std::make_unique<Drums>();
+        }
+        if (instrument) {
+            instrument->load(in);
+            instruments.push_back(std::move(instrument));
+        }
+    }
+}
+
+int main() {
+    std::vector<std::unique_ptr<Instrument>> guitars;
+    std::vector<std::unique_ptr<Instrument>> drums;
+
+    // Загрузка инструментов из файлов
+    loadInstruments(guitars, "guitars.txt");
+    loadInstruments(drums, "drums.txt");
+
+    // Пример добавления нового инструмента
+    guitars.push_back(std::make_unique<Guitar>());
+    drums.push_back(std::make_unique<Drums>());
+
+    // Сохранение инструментов в файлы
+    saveInstruments(guitars, "guitars.txt");
+    saveInstruments(drums, "drums.txt");
+
+    return 0;
+}

@@ -1,0 +1,8 @@
+ZildjianKCustom;bronze;4;460
+SabianHHXEvolution;brass;3;400
+PaisteSignature;copper;5;520
+MeinlByzanceDark;bronze;6;560
+IstanbulAgopXist;brass;2;380
+ZildjianAvedis;bronze;4;430
+SabianAAXStage;brass;3;390
+Paiste2002Classic;copper;5;490

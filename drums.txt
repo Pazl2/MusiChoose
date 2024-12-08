@@ -1,0 +1,15 @@
+PearlExport;wood;snare;3;920;1
+TamaStarclassic;metal;bass;5;1700;0
+YamahaStageCustom;plastic;tenor;4;810;1
+LudwigLegacyMahogany;wood;snare;2;1850;0
+DWCollector'sSeries;metal;snare;6;2220;1
+GretschRenown;wood;bass;3;1190;1
+MapexSaturn;metal;tenor;5;1300;0
+SonorSQ2;wood;snare;4;2540;1
+TamaImperialstar;plastic;snare;2;660;0
+LudwigVistalite;metal;snare;6;1590;1
+PDPConcept;wood;snare;3;940;1
+SJCDrumsCustom;metal;bass;4;1940;0
+PearlMasters;plastic;tenor;5;1370;1
+GretschCatalina;wood;snare;3;1010;0
+MapexArmory;metal;snare;4;1110;1

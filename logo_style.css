@@ -1,0 +1,16 @@
+QWidget {
+    background-color: #f0f0f0;
+    font-family: "Arial";
+    font-size: 12px;
+}
+
+QPushButton {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: #0056a3;
+}

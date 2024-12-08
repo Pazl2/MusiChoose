@@ -1,0 +1,12 @@
+BachStradivarius;brass;flute;Bb;10;1600
+YamahaYTR8335RS;gold;flute;C;5;2100
+SchilkeS42;silver;contrabass;Bb;7;2300
+GetzenEterna;nickel;flute;D;6;1200
+ConnVintageOne;brass;flute;Eb;8;2400
+Kanstul1600;silver;flute;Bb;9;1700
+TaylorChicago;gold;contrabass;C;4;2600
+AdamsA4;nickel;flute;D;3;1900
+MonettePrana;brass;flute;Bb;2;7200
+StomviElite;silver;flute;Eb;5;1450
+BessonBE2028;brass;flute;Bb;6;1500
+CourtoisEvolution;gold;flute;C;8;2000

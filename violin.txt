@@ -1,0 +1,8 @@
+Stradivarius;wood;classic;1;120000;4;1
+YamahaV5;plastic;classic;3;400;4;1
+GuarneriDelGesu;wood;baroque;1;160000;4;1
+StentorStudentI;wood;classic;4;160;4;0
+CremonaSV-175;wood;classic;2;320;4;1
+GligaGems2;wood;classic;2;560;4;1
+ScottCaoSTV1500;wood;baroque;1;2000;4;1
+UltraSuperJopa;titanium;jopa;228;1.23057e+21;10;1

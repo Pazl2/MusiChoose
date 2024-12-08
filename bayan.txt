@@ -1,0 +1,10 @@
+WeltmeisterSupita;wood;3;3600;1
+HohnerMorino;leather;2;3200;1
+ScandalliSuperVI;wood;4;4000;1
+PiginiMythos;metal;1;4700;1
+BugariArmando;plastic;5;3300;0
+JupiterBayan;leather;3;3500;1
+SerenelliniDeLuxe;wood;2;2800;0
+BorsiniProfessional;metal;4;4200;1
+PetosaAM1100;plastic;1;3400;0
+ExcelsiorAccordion;wood;3;2900;1
